@@ -1,0 +1,1419 @@
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #6c757d;
+    opacity: 1;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #6c757d;
+    opacity: 1;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: #6c757d;
+    opacity: 1;
+}
+
+/*
+//    ---        SUPER WP HEROES
+//    ---        COMMENT: RESETTING BOOTSTRAP TEXT COLORS
+*/
+
+.text-primary {
+    color: #f8a73d !important;
+}
+
+.text-secondary {
+
+}
+
+.text-success {
+    color: #75c283 !important;
+}
+
+.text-danger {
+    color: #ff2200 !important;
+}
+
+.text-warning {
+    /*color: #ecedac !important;*/
+}
+
+.text-info {
+    color: #4cd7e8 !important;
+    /*color: #00f0ff!important;*/
+}
+
+.text-muted {
+    color: #d4d4d4 !important;
+}
+
+/*
+//    ---        SUPER WP HEROES
+//    ---        COMMENT: RESETTING BOOTSTRAP BACKGROUNDS
+*/
+
+.bg-primary, .btn-primary, .alert-primary , .badge-primary{
+    background-color: #f8a73d !important;
+}
+.bg-secondary {
+
+}
+.bg-success, .btn-success , .alert-success, .badge-success {
+    background-color: #75c283 !important;
+}
+.bg-danger, .btn-danger, .alert-danger , .badge-danger {
+    background-color: #ed4242 !important;
+}
+.bg-warning, .btn-warning , .alert-warning, .badge-warning {
+    background-color: #ecedac !important;
+}
+.bg-info, .btn-info , .alert-info, .badge-info {
+    background-color: #4cd7e8 !important;
+}
+.bg-light {
+
+}
+
+/*
+//    ---        SUPER WP HEROES
+//    ---        COMMENT: RESETTING BOOTSTRAP BUTTONS
+*/
+
+.btn {
+    border-color: #00000024 !important;
+}
+
+.alert-success, .alert-danger, .alert-warning, .alert-info {
+
+}
+
+.alert-danger {
+    color: #fff !important;
+}
+
+
+/*
+//    ---        SUPER WP HEROES
+//    ---        COMMENT: BOOTSTRAP MODALS
+*/
+
+.modal-dialog {
+
+}
+
+.modal-dialog .close {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+}
+
+#add-task-modal-title, #task-tabs {
+	display: none;
+}
+
+
+/*
+//    ---        SUPER WP HEROES
+//    ---        COMMENT: MISC
+*/
+
+.has-action {cursor:pointer}
+
+
+/*
+//    ---        SUPER WP HEROES
+//    ---        COMMENT: CHECKBOX SWITCHES AJAX HINT
+*/
+
+.switch .fa-spinner {
+    position: absolute;
+    z-index: 9;
+    top: 50%;
+    left: 50%;
+    margin: -8px 0 0 -10px;
+    color: white;
+    display: none;
+}
+
+
+/*
+//    ---        SUPER WP HEROES
+//    ---        COMMENT: FANCY SELECT
+*/
+
+
+.wph-user-select .dropdown-toggle::after {
+    display: none !important;
+}
+
+
+/*
+//    ---        SUPER WP HEROES
+//    ---        COMMENT: Time Records
+*/
+
+.time-record-holder {
+	height: 137px;
+	width: 169px;
+	border-radius: 4px;
+}
+
+.time-record-holder .fa-spinner {
+ 	position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -32px 0 0 -32px;
+ }
+
+.wph-time-record-thumbnail {
+    height: 103px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+    .wph-time-record-thumbnail .paid-status {
+    	position: absolute;
+	    bottom: 9px;
+	    left: 40px;
+    }
+
+    .wph-time-record-thumbnail .wph-tr-assignee {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: auto;
+        border-radius: 0;
+        text-align: left;
+        padding-top: 6px;
+    }
+
+
+/*
+//    ---        SUPER WP HEROES
+//    ---        COMMENT: CRUD element
+*/
+
+.eip-holder {
+    position: relative;
+    width: auto;
+    display: inline-block;
+    padding-right: 10px;
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+.eip-holder-textarea {
+    position: relative;
+    width: 100% !important;
+    display: block;
+    padding-right: 0px;
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+.eip-holder .fas, .eip-holder .fa,
+.sip-holder .fas, .sip-holder .fa {
+    position: absolute;
+    right: 0;
+    top: 25%;
+    z-index: 9;
+    display: none;
+}
+
+    .eip-holder-textarea .fas, .eip-holder-textarea .fa {
+        top: 0%;
+    }
+
+.eip-holder-small .fas, .eip-holder-small .fa {
+	top: 5%;
+}
+
+.eip-holder:hover .fa-edit,
+.sip-holder:hover .fa-edit {
+    display: inline-block;
+}
+
+.eip-holder .eip {
+    border: 0 !important;
+    cursor: pointer;
+    border-bottom: 1px dashed #d2d5d8 !important;
+    width: 100%;
+    font-weight: bold;
+}
+
+    .eip-holder-textarea .eip {
+        font-weight: initial;
+    }
+
+	.eip-holder .eip:focus {
+		border-color: #d2d5d8;
+	    box-shadow: none;
+	    outline: 0px solid transparent;
+	}
+
+.eip-holder .eip.eip-small {
+    display: inline;
+    width: 60px;
+    font-size: 13px;
+    padding: 0 5px 5px 5px !important;
+    line-height: 15px;
+    height: 20px !important;
+    min-height: auto;
+    white-space: nowrap;
+}
+
+/*
+//    ---        SUPER WP HEROES
+//    ---        COMMENT: FORMS
+*/
+
+textarea.form-control {
+    font-size: 13px;
+}
+
+
+/*
+//    ---        SUPER WP HEROES
+//    ---        COMMENT: UI Sortable
+*/
+
+
+
+li.ui-sortable-handle {
+    cursor: grab;
+}
+li.ui-sortable-handle.ui-sortable-helper {
+  -webkit-transform: rotate(2deg);
+  -moz-transform: rotate(3deg);
+  -o-transform: rotate(3deg);
+  -ms-transform: rotate(3deg);
+  transform: rotate(3deg);
+  box-shadow: 0 12px 15px #00000054;
+  background: #fff;
+}
+
+li.ui-sortable-handle .load-task {
+    cursor: pointer;
+}
+
+
+h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.well {
+    height: 100px;
+    padding-top: 5px;
+    margin-top: 10px;
+    background: white; box-shadow: 0 12px 15px #00000054;
+}
+
+/* Border under agency stats */
+
+.border-bottom-solid-black {
+    border-bottom: 5px solid black;
+    padding-bottom: 8px;
+}
+
+.income-usd {
+    height: 65px;
+    line-height: 15px;
+    color: rgb(229, 238, 167);
+    background-color: rgb(76, 202, 133);
+    font-size: 24px;
+    padding: 20px 10px 25px 24px;
+    text-align: right;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.income-text {
+    font-size: 15px;
+    text-align: right;
+    font-family: 'Open Sans', sans-serif;
+}
+
+p.procent-reached {
+    margin-bottom: 1px !important;
+    text-align: right;
+    font-size: 15px;
+}
+
+.date-slider-stats {
+    font-size: 20px;
+    color: rgb(179, 179, 179);
+}
+
+#myChart {
+    padding-bottom: 50px;
+}
+
+/* TASK Notification Icons */
+
+.user-icon-task {
+    color: rgb(255, 113, 167);
+}
+
+.calendar-icon-task {
+    color: rgb(255, 0, 71);
+}
+.chat-comments {
+    color: rgb(0, 164, 241);
+}
+.clock-icon-task {
+    color: rgb(255, 0, 62);
+}
+
+.color-doctor-green-thumb {
+    color: rgb(76, 202, 133);
+}
+
+.fas.user-icon-task,
+.calendar-icon-task,
+.chat-comments,
+.clock-icon-task {
+    font-size: 70px;
+    padding: 10px;
+}
+
+.number-notification {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.comment-notification {
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    padding-top: 23px;
+    opacity: 0.5;
+}
+
+.container-task {
+    border-right: 1px solid rgba(114, 112, 112, 0.3);
+}
+
+.container-task:last-child { /* Remove last border */
+	border-width: 0px;
+}
+
+.well-task-padding {
+    padding-top: 10px;
+}
+
+.well-task-padding.container-notice {
+    padding-top: 30px;
+}
+
+/* Task title */
+
+.well-tasks {
+    margin-top: 20px;
+}
+
+.fas.user-icon-comment {
+    float: right;
+    font-size: 45px;
+    color: rgb(179, 179, 179);
+    padding-top: 20px;
+}
+
+/* Check label task */
+
+.fachecklabel:after {
+    content: "\f14a";
+    font-family: "Font Awesome 5 Free";
+}
+
+.facheck {
+    display: none !important;
+}
+
+.facheck:checked + .fas.fa-check-square {
+    color:rgb(76, 202, 133);
+}
+
+
+/* Progress bar for tasks */
+
+.progress-task-bar {
+    padding: 0;
+}
+
+.progress-task-bar li {
+    background-color: rgb(76, 202, 133);
+    width: 3.12%;
+    height: 13px;
+}
+
+.bg-gray-opacity {
+    background-color: rgba(247, 247, 247, 0.7);
+    margin-top: -100px;
+}
+
+ul.progress-task-bar li {
+    border-right: 1px solid white;
+    float: left;
+}
+
+ul.progress-task-bar li:last-child {
+    border-right: 0px;
+}
+
+.border-red-left {
+    border-left: 6px solid rgb(255, 113, 167);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.updates-tasks-title {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.title-project-updates {
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: bold;
+    background-color: rgb(229, 238, 167);
+    border: 3px solid rgb(229, 238, 167);
+    border-radius: 12px;
+    padding-right: 4px;
+    padding-left: 4px;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.est-hours {
+    margin-left: 10px;
+}
+
+.border-bottom-tasks {
+    border-bottom: 1px solid rgba(114, 112, 112, 0.3);
+}
+
+.border-red-red {
+    border-left: 6px solid rgb(255, 0, 71) !important;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* Comments section text and icons */
+
+.comments-tasks-section {
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgb(245, 245, 245);
+    padding: 12px;
+    margin-top: 30px;
+}
+
+.user-icon-comment-section {
+    float: left;
+    font-size: 45px;
+    color: rgb(179, 179, 179);
+}
+
+.user-name-comments {
+    font-weight: bold;
+    font-size: 17px;
+    float: left;
+    margin-bottom: 0;
+}
+
+.on-word-tasks {
+    font-size: 17px;
+    font-weight: normal;
+    color: rgb(179, 179, 179);
+    padding-left: 5px;
+}
+
+.date-comments-tasks {
+    float: right;
+    font-size: 15px;
+    font-weight: normal;
+    color: rgb(179, 179, 179);
+    padding-left: 25px;
+}
+
+.updates-hours-title {
+    font-size: 21px;
+    padding-top: 20px;
+}
+
+/* Edit padding on Unpaid hours status text */
+span.updates-tasks-title {
+    padding-left: 5px !important;
+}
+.red-backgroud-on-hours {
+    background-color: rgb(255, 0, 71);
+    color: white;
+}
+
+.days-last-payment {
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(255, 0, 71);
+}
+.user-icon-comment.unpaid-hours-icon {
+   padding: 0px 17px 0px 60px;
+}
+
+.company-name {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.unpaid-hours-number {
+    float: right;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgb(255, 0, 71);
+    padding-top: 8px;
+}
+
+/* Hours icons size */
+
+.hours-icon {
+    font-size: 30px;
+    padding-top: 15px;
+    scroll-padding-bottom: 15px;
+}
+
+.unpaid-hours-caps {
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    padding-top: 5px;
+}
+
+/* Filter Tasks */
+
+#filterSearch {
+    height: 40px;
+    width: 90%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #ddd;
+    border-radius: 25px;
+    margin-bottom: 12px;
+}
+
+/* Colored task left borders */
+
+.border-green-left {
+    border-left: 6px solid rgb(76, 202, 133);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.border-blue-left {
+    border-left: 6px solid rgb(0, 164, 241);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.border-yellow-left {
+    border-left: 6px solid rgb(232, 241, 169);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.est-hours.rt-hours,
+.est-hours.est-task-hours {
+    padding: 0px;
+}
+
+.rt-est-task-hours {
+    padding-left: 60px;
+}
+
+
+.fa-plus-circle {
+    color: rgb(255, 0, 71);
+    font-size: 40px;
+}
+
+/* Agency Stats Progress Bar */
+#myprogressBar {
+    width: 80%;
+    height: 10px;
+    background-color: rgb(76, 202, 133);
+    text-align: center; /* To center it horizontally (if you want) */
+    line-height: 30px; /* To center it vertically */
+    color: white;
+    margin-bottom: 10px;
+}
+
+#hoursTarget,
+#incomeTarget {
+    width: 100%;
+    background-color: rgb(229, 238, 167);
+}
+
+.search-button-projects {
+    background-color: rgb(76, 202, 133);
+    border: 1px solid rgb(76, 202, 133);
+    border-radius: 30px;
+    height: 40px;
+    width: 100px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/* Company task/ Asana */
+
+.project-title-columns {
+    box-shadow: 0 12px 15px #00000054;
+    height: 350px;
+}
+
+.fas.fa-circle {
+    color: rgb(76, 202, 133);
+}
+
+.fas.fa-exclamation-triangle {
+    color: rgb(255, 0, 71);
+}
+
+.circle-for-project-icons {
+    font-size: 25px;
+    height: 65px;
+    width: 65px;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 50%;
+}
+
+.bg-blue-circle {
+    background: rgb(0, 164, 241);
+    color: white;
+}
+
+.bg-green-circle {
+    background: rgb(76, 202, 133);
+    color: rgb(229, 238, 167);
+}
+
+.bg-purple-circle {
+    background: rgb(184, 130, 155);
+    color: white;
+}
+
+.bg-brown-circle {
+    background: rgb(128, 66, 68);
+    color: white;
+}
+
+.has-shadow-hover {
+    background-color: white !important;
+    transition: box-shadow 1s;
+}
+
+.has-shadow-hover:hover, .has-shadow-hover:focus {
+    box-shadow: 0 12px 15px #00000054;
+}
+
+
+.date-deadline-projects {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    color: gray;
+}
+
+.deadline-projects {
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: bold;
+    color: rgb(255, 0, 71);
+}
+
+.fas.fa-plus-square{
+    color: rgb(179, 179, 179);
+    line-height: 0;
+    padding-top: 25px;
+}
+
+.fas.fa-check-circle {
+    color: rgb(76, 202, 133);
+}
+
+.fas.fa-bug {
+    color: rgb(255, 0, 71);
+}
+
+.fas.fa-plus {
+    color: rgb(179, 179, 179)
+}
+
+
+.new-column-text {
+    position: absolute;
+    top: 25%;
+}
+
+.new-column-plus {
+    position: absolute;
+    top: 32%;
+}
+
+
+/* Drop files*/
+
+.image-upload {
+    height: 200px;
+    margin-bottom: 20px;
+    text-align: center;
+    background: rgb(240, 240, 240);
+    color: rgb(174, 174, 174);
+}
+
+.image-upload i {
+    font-size: 6em;
+    color: rgb(174, 174, 174);
+}
+
+.image-upload input {
+    cursor: pointer;
+    opacity: 0;
+    height: 100%;
+    top: 0;
+    left: 0
+}
+
+.fas.fa-cloud-upload-alt {
+    transition: 0.5s ease-in-out;
+}
+
+
+.fas.fa-cloud-upload-alt:hover {
+   color: rgb(76, 202, 133);
+}
+
+
+
+/* Task description */
+
+.sidebar-box {
+    max-height: 360px;
+    position: relative;
+    overflow: hidden;
+  }
+  .sidebar-box .read-more {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    margin: 0; padding: 30px 0;
+    background-image: linear-gradient(to bottom, transparent, white);
+  }
+
+
+  .fas.fa-bug {
+      font-size: 20px;
+  }
+
+  /* WORKING ON: SOME TASK NAME... font size */
+  .mb-0.font-weight-bold.text-uppercase {
+      font-size: 20px;
+  }
+
+  /* Add new task button */
+  .fas.fa-plus-circle.add-new-task-button {
+    font-size: 40px;
+    color: rgb(76, 202, 133);
+    padding-left: 5px;
+    padding-top: 3px;
+    transition: 0.5s ease-in-out;
+
+  }
+
+  .fas.fa-plus-circle.add-new-task-button:hover {
+      color: rgb(255, 0, 62);
+  }
+
+  /* Add + sign and hover */
+
+  .fas.fa-plus-circle {
+    transition: 0.5s ease-in-out;
+  }
+
+  .fas.fa-plus-circle:hover {
+    color: rgb(76, 202, 133);
+  }
+
+  /* charge - notify - mark as paid */
+  .unpaid-hours-caps,
+  .fa-credit-card,
+  .fa-envelope,
+  .fa-check {
+    transition: 0.5s ease-in-out;
+  }
+
+.fa-credit-card:hover, .fa-envelope:hover, .fa-check:hover {
+    font-size: 40px;
+  }
+
+
+  /* Comments ADD button */
+
+
+  .task-squirrel {
+      max-width: 100%;
+  }
+
+  .bg-green-circle::after {
+    content: "3";
+    position: absolute;
+    color: white;
+    background-color: rgb(255, 0, 71);
+    margin-left: -5px;
+    border: 5px solid rgb(255, 0, 71);
+    border-radius: 30px;
+    width: 24px;
+    height: 24px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    margin-top: -24px;
+  }
+
+
+/* Enter new column name + sign */
+
+  .fas.fa-plus.display-1,
+  .fas.fa-plus-square.display-4 {
+    transition: all 0.5s;
+    transition-timing-function: ease-in-out;
+    }
+
+    .fas.fa-plus.display-1:hover, .fas.fa-plus-square.display-4:hover {
+    color: rgb(76, 202, 133);
+    }
+
+
+  /*** MEDIA QUERY ***/
+
+  @media only screen and (max-width: 2000px) {
+    .comment-notification {
+        padding-left: 10px;
+    }
+}
+
+  @media only screen and (max-width: 1640px) {
+    .user-icon-comment.unpaid-hours-icon {
+        padding: 5px 0px 0px 0px;
+    }
+
+    .unpaid-hours-number {
+        font-size: 15px;
+    }
+
+    .days-last-payment {
+        text-align: center;
+    }
+
+    .fas.user-icon-task, .calendar-icon-task, .chat-comments, .clock-icon-task {
+        font-size: 49px;
+        padding-top: 18px;
+        padding-right: 15px;
+    }
+    .comment-notification {
+        font-size: 11px;
+    }
+
+    .income-usd {
+        line-height: 15px;
+        font-size: 16px;
+        padding: 12px 10px 25px 24px;
+    }
+    .on-word-tasks {
+        font-size: 16px;
+    }
+    .number-notification {
+        font-size: 56px;
+    }
+
+    .fas.user-icon-comment {
+        font-size: 30px;
+    }
+
+    .user-icon-comment-section {
+        font-size: 30px;
+    }
+
+    .bg-gray-opacity {
+        margin-top: -130px;
+    }
+
+    .circle-for-project-icons {
+        font-size: 20px;
+        height: 55px;
+        width: 55px;
+    }
+
+    .date-deadline-projects {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 11px;
+    }
+
+    .est-hours.rt-hours,
+    .est-hours.est-task-hours {
+        padding: 0px;
+        margin-left: 0px;
+    }
+
+    .updates-tasks-title {
+        font-size: 0.8rem;
+    }
+
+    .updates-hours-title,
+    .unpaid-hours-caps,
+    .days-last-payment
+    .deadline-projects {
+        font-size: 0.9rem;
+    }
+
+    .hours-icon {
+        font-size: 20px;
+    }
+
+    .user-name-comments {
+        font-size: 16px;
+    }
+
+
+    .mb-0.font-weight-bold.text-uppercase {
+        font-size: 16px;
+    }
+
+/* User image size on laptop */
+
+    .cuntor {
+        width: 40px;
+    }
+
+    .fas.fa-plus-square {
+        font-size: 45px !important;
+        padding-top: 21px !important;
+    }
+
+/* hours today tasks */
+
+    .daily-hours-task {
+        padding: 0px;
+    }
+
+    .mt-2.daily-hours-task {
+        padding-left: 6px;
+    }
+
+    .color-doctor-green-thumb.font-weight-bold.h4 {
+        font-size: 1.2rem;
+    }
+
+    .est-hours.est-task-hours {
+        padding-left: 3px;
+    }
+
+    .comments-date-padding {
+        padding-left: 25px;
+    }
+
+    .comment-notification {
+        padding-left: 10px;
+    }
+
+  }
+
+
+@media only screen and (max-width: 991px) {
+    .bg-gray-opacity {
+        margin-top: -100px;
+    }
+
+    .number-notification {
+        font-size: 40px;
+        padding-top: 9px;
+        padding-left: 20px;
+    }
+
+    .fas.user-icon-task, .calendar-icon-task, .chat-comments, .clock-icon-task {
+        font-size: 30px;
+        padding-top: 23px;
+        float: left;
+    }
+
+    .comment-notification {
+        padding-left: 10px;
+    }
+
+    .company-name {
+        font-size: 19px;
+    }
+}
+
+@media only screen and (max-width: 814px) {
+    .comment-notification {
+        font-size: 10px;
+        padding-top: 23px;
+        float: left;
+    }
+}
+
+
+
+@media only screen and (max-width: 767px) {
+    .agency-stats-text {
+        text-align: left;
+        padding-top: 20px;
+    }
+
+    .date-slider-stats {
+        text-align: left !important;
+    }
+
+    .fas.user-icon-task, .calendar-icon-task, .chat-comments, .clock-icon-task {
+        float: left;
+        padding-right: 15px;
+    }
+
+    .number-notification {
+        font-size: 30px;
+        padding-top: 15px;
+    }
+}
+
+
+     /* Media Query */
+
+
+/* hourly breakdown */
+#hourly-breakdown {
+    display: none;
+    position: fixed;
+    background-color: rgba(170,170,170,.95);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 99999;
+}
+
+.hourly-breakdown-arrow, #hourly-breakdown-close {
+    position: fixed;
+    color: white;
+    top: 50%;
+    font-size: 36px;
+    background-color: rgba(0,0,0,.5);
+    padding: 20px 0;
+    width: 50px;
+    height: 75px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: -35px;
+}
+#hourly-breakdown-left {
+    left: 10px;
+}
+#hourly-breakdown-right {
+    right: 10px;
+}
+#hourly-breakdown-close {
+    top: 100px;
+    right: 70px;
+    height: 50px;
+    padding: 7px;
+}
+.selected-tr-warning {
+    display: none;
+    border: 4px solid white;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 9;
+    background: black;
+    color: rgba(230, 150, 0.9);
+    width: 35px;
+    height: 35px;
+    padding: 3px;
+}
+
+/*my-workspace & project single*/
+#dashboard-widgets .task-item-details label {
+    float:none;
+    padding:0px !important;
+    margin:0px !important;
+
+}
+#dashboard-widgets .task-item-details,
+.wp-hourly_page_wph-dashboard .task-item-details,
+.my-workspace .task-item-details {
+    max-width:100%;
+    width:100%;
+    display:flex;
+    align-items:center;
+    border-bottom:1px solid #ccc;
+    padding:8px;
+}
+
+.wp-hourly_page_wph-dashboard .sortable li:last-child{
+
+}
+.wp-hourly_page_wph-dashboard .sortable li:last-child .task-item-details{
+    border-bottom:0px solid #ccc;
+}
+#dashboard-widgets .task-item-details .task-item-details-title {
+    max-width:calc(100% - 50px);
+    width:100%;
+}
+.wp-hourly_page_wph-dashboard .task-item-details .task-item-details-title ,
+.my-workspace .task-item-details .task-item-details-title {
+    max-width:60%;
+    width:100%;
+}
+#dashboard-widgets .task-item-details .task-item-details-title .task-item-details-row ,
+.wp-hourly_page_wph-dashboard .task-item-details .task-item-details-title .task-item-details-row ,
+.my-workspace .task-item-details .task-item-details-title .task-item-details-row {
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+}
+#dashboard-widgets .task-item-details .task-item-details-title .task-item-details-row .task-item-details-icon ,
+.wp-hourly_page_wph-dashboard .task-item-details .task-item-details-title .task-item-details-row .task-item-details-icon ,
+.my-workspace .task-item-details .task-item-details-title .task-item-details-row .task-item-details-icon {
+    max-width:16px;
+    width:100%;
+
+}
+#dashboard-widgets .task-item-details .task-item-details-title .task-item-details-row .task-item-details-icon a,
+.wp-hourly_page_wph-dashboard .task-item-details .task-item-details-title .task-item-details-row .task-item-details-icon a,
+.my-workspace .task-item-details .task-item-details-title .task-item-details-row .task-item-details-icon a{
+
+}
+#dashboard-widgets .task-item-details .task-item-details-title .task-item-details-row .task-item-details-detail ,
+.wp-hourly_page_wph-dashboard .task-item-details .task-item-details-title .task-item-details-row .task-item-details-detail ,
+.my-workspace .task-item-details .task-item-details-title .task-item-details-row .task-item-details-detail {
+    padding-left:8px;
+    padding-top:8px;
+    max-width:calc(100% - 16px);
+    display:flex;
+    align-items:center;
+}
+#dashboard-widgets .task-item-details .task-item-details-title .task-item-details-row .task-item-details-detail .est-hours,
+.wp-hourly_page_wph-dashboard .task-item-details .task-item-details-title .task-item-details-row .task-item-details-detail .est-hours,
+.my-workspace .task-item-details .task-item-details-title .task-item-details-row .task-item-details-detail .est-hours,
+#dashboard-widgets .task-item-details .task-item-details-title .task-item-details-row .task-item-details-detail .rt-hours,
+.wp-hourly_page_wph-dashboard .task-item-details .task-item-details-title .task-item-details-row .task-item-details-detail .rt-hours,
+.my-workspace .task-item-details .task-item-details-title .task-item-details-row .task-item-details-detail .rt-hours{
+    margin-left:0px;
+}
+#dashboard-widgets .task-item-details .task-item-details-title .task-item-details-row .task-item-details-detail p ,
+.wp-hourly_page_wph-dashboard .task-item-details .task-item-details-title .task-item-details-row .task-item-details-detail p ,
+.my-workspace .task-item-details .task-item-details-title .task-item-details-row .task-item-details-detail p {
+    line-height:1;
+    padding-bottom:0px;
+    margin-bottom:0px;
+    display:flex;
+    align-items:center;
+    max-width:100%;
+}
+#dashboard-widgets .task-item-details .task-item-details-title .task-item-details-row .task-item-details-detail h6,
+.wp-hourly_page_wph-dashboard .task-item-details .task-item-details-title .task-item-details-row .task-item-details-detail h6,
+.my-workspace .task-item-details .task-item-details-title .task-item-details-row .task-item-details-detail h6{
+    margin: 0px !important;
+    line-height: 1 !important;
+    padding:0px !important;
+}
+#dashboard-widgets .task-item-details .task-item-details-timer {
+    max-width:40px;
+    width:100%;
+    margin-left:auto;
+    min-height:45px;
+}
+.wp-hourly_page_wph-dashboard .task-item-details .task-item-details-timer ,
+.my-workspace .task-item-details .task-item-details-timer {
+    max-width:40%;
+    width:100%;
+}
+#dashboard-widgets .task-item-details .updates-tasks-title,
+.wp-hourly_page_wph-dashboard .task-item-details .updates-tasks-title,
+.my-workspace .task-item-details .updates-tasks-title{
+    line-height:1;
+    padding-top:0px;
+    padding-left:0px;
+
+}
+#dashboard-widgets .task-item-details .task-title-ellipsis,
+.wp-hourly_page_wph-dashboard .task-item-details .task-title-ellipsis,
+.my-workspace .task-item-details .task-title-ellipsis{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 100%;
+    display: inline-block; 
+    overflow: hidden
+}
+#dashboard-widgets .task-item-details .task-item-details-start-stop,
+.wp-hourly_page_wph-dashboard .task-item-details .task-item-details-start-stop,
+.my-workspace .task-item-details .task-item-details-start-stop{
+    display:flex;
+    max-width:100%;
+    justify-content:flex-end;
+
+}
+#dashboard-widgets .task-item-details .task-item-details-start-stop .task-web-tracker,
+.wp-hourly_page_wph-dashboard .task-item-details .task-item-details-start-stop .task-web-tracker,
+.my-workspace .task-item-details .task-item-details-start-stop .task-web-tracker{
+    display:flex;
+    align-items:center;
+    max-width:calc(100% - 30px);
+    width:100%;
+    margin-left:8px;
+}
+#dashboard-widgets .task-item-details .task-item-details-start-stop .task-web-tracker p,
+.wp-hourly_page_wph-dashboard .task-item-details .task-item-details-start-stop .task-web-tracker p,
+.my-workspace .task-item-details .task-item-details-start-stop .task-web-tracker p{
+    margin-left:auto !important;
+    margin-right:8px !important;
+}
+#dashboard-widgets .task-item-details .task-item-details-start-stop .task-web-tracker .web-tracker-btn-timer ,
+.wp-hourly_page_wph-dashboard .task-item-details .task-item-details-start-stop .task-web-tracker .web-tracker-btn-timer ,
+.my-workspace .task-item-details .task-item-details-start-stop .task-web-tracker .web-tracker-btn-timer {
+    max-width: 80px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    margin-left:4px;
+    margin-right:4px;
+    padding:3px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+#dashboard-widgets .task-item-details .task-item-details-start-stop .task-web-tracker .web-tracker-btn-timer:hover ,
+.wp-hourly_page_wph-dashboard .task-item-details .task-item-details-start-stop .task-web-tracker .web-tracker-btn-timer:hover ,
+.my-workspace .task-item-details .task-item-details-start-stop .task-web-tracker .web-tracker-btn-timer:hover {
+    border-width:1px;
+    border-color:#333;
+}
+#dashboard-widgets .task-item-details .task-item-details-start-stop .task-web-tracker .web-tracker-btn-timer.web-tracker-start:hover ,
+.wp-hourly_page_wph-dashboard .task-item-details .task-item-details-start-stop .task-web-tracker .web-tracker-btn-timer.web-tracker-start:hover ,
+.my-workspace .task-item-details .task-item-details-start-stop .task-web-tracker .web-tracker-btn-timer.web-tracker-start:hover {
+    background-color:#75c283;
+    border-color:#75c283;
+    color:#fff;
+}
+#dashboard-widgets .task-item-details .task-item-details-start-stop .task-web-tracker .web-tracker-btn-timer.web-tracker-stop ,
+.wp-hourly_page_wph-dashboard .task-item-details .task-item-details-start-stop .task-web-tracker .web-tracker-btn-timer.web-tracker-stop ,
+.my-workspace .task-item-details .task-item-details-start-stop .task-web-tracker .web-tracker-btn-timer.web-tracker-stop {
+    background-color:rgba(255, 0, 71, 1);   
+    border-color:rgba(255, 0, 71, 1);
+    color:#fff;
+}
+#dashboard-widgets .task-item-details .task-item-details-start-stop .task-web-tracker .web-tracker-btn-timer.web-tracker-stop:hover ,
+.wp-hourly_page_wph-dashboard .task-item-details .task-item-details-start-stop .task-web-tracker .web-tracker-btn-timer.web-tracker-stop:hover ,
+.my-workspace .task-item-details .task-item-details-start-stop .task-web-tracker .web-tracker-btn-timer.web-tracker-stop:hover {
+    background-color:rgba(255, 0, 71, 0.6);   
+    border-color:rgba(255, 0, 71, 0.6);
+    
+}
+#dashboard-widgets .task-item-details .task-item-details-start-stop .task-item-details-member{
+    max-width:40px;
+    margin-left:8px;
+    display:flex;
+    align-items:center;
+}
+#dashboard-widgets .task-item-details .task-item-details-start-stop .task-item-details-member .facheck:checked + .fas.fa-check-square {
+    color: rgb(179, 179, 179);
+}
+
+    
+
+.wp-hourly_page_wph-dashboard .task-item-details .task-item-details-start-stop .task-item-details-member,
+.my-workspace .task-item-details .task-item-details-start-stop .task-item-details-member{
+    max-width:30px;
+    margin-left:8px;
+    display:flex;
+    align-items:center;
+}
+.my-workspace .tsk-li {
+    margin-bottom:0px;
+}
+.my-workspace .tsk-li:hover {
+    background-color:#e9ecef;
+}
+.my-workspace .tsk-li-active {
+    background-color:rgba(117, 194, 131, 0.5);
+}
+.my-workspace .tsk-li-active:hover {
+    background-color:rgba(117, 194, 131, 0.5);
+}
+.wph-form-col-select-wrp{
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    width: 100%
+}
+.wph-form-col-select{
+    max-width:50%;
+}
+.wph-form-col-select .form-control{
+    height: calc(1.5em + 1rem + 2px);
+        padding: .5rem 1rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-radius: .3rem;
+}
+.wph-user-select-container {
+    padding-top:2px;
+}
+.wph-user-select-container .wph-user-select{
+    min-height: 48px;
+    padding: 0px !important;
+    text-align: center;
+    margin-top: 0;
+}
+.wph-li-no-margin {
+    margin-bottom:0px !important;
+}
+.wph-li-no-margin {
+    padding-bottom:0px !important;
+}
+
+.wph-widgets-dashboard-container .wph-widgets-column-container .fas.user-icon-comment:before {
+    font-size:45px;
+}
+.wph-widgets-dashboard-container .wph-widgets-column-container .task-panel:before {
+/*    content:'';
+    height:100%;
+    background-color:#ccc;
+    width:1px;
+    position:absolute;
+    right:-1px;
+*/
+}
+
+.ui-widget-content {
+    background: #fff !important;
+    z-index: 2000 !important;
+}
